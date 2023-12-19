@@ -31,6 +31,10 @@ void qs(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void swap_ints(int *a, int *b);
+int get_max(int *array, int size);
+void radix_counting_sort(int *array, size_t size, int sig, int *buff)
+;
+void radix_sort(int *array, size_t size);
 void max_heapify(int *array, size_t size, size_t base, size_t root);
 void heap_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
